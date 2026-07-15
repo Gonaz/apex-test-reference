@@ -1,219 +1,188 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<apex:results experiment_file="file:/home/tom/data/apex/.build/test/to_test/procedure/idn2-skip.apx" xmlns:apex="http://med.kuleuven.be/exporl/apex/result">
-<general>
-	<startdate>2012-11-23T11:03:52</startdate>
-	<enddate>2012-11-23T11:03:59</enddate>
-	<duration unit="seconds">7</duration>
-</general>
-<trial id="trial3">
-<procedure >
-<skip/>
-<stimulus>stimulus3</stimulus>
-</procedure>
-<screenresult xclickposition="0" yclickposition="0">
-	<element id="buttongroup1">button5</element>
-</screenresult>
-<corrector>
-<result>false</result>
-<answer>button5</answer>
-<correctanswer>button3</correctanswer>
-</corrector>
-<output>
-<device id="wavdevice">
-  <buffer underruns="0"/>
-</device>
-</output>
-<responsetime unit='ms'>1</responsetime>
-<randomgenerators>
-
-</randomgenerators>
-</trial>
-
-<trial id="trial1">
-<procedure >
-<skip/>
-<stimulus>stimulus1</stimulus>
-</procedure>
-<screenresult xclickposition="0" yclickposition="0">
-	<element id="buttongroup1">button2</element>
-</screenresult>
-<corrector>
-<result>false</result>
-<answer>button2</answer>
-<correctanswer>button1</correctanswer>
-</corrector>
-<output>
-<device id="wavdevice">
-  <buffer underruns="0"/>
-</device>
-</output>
-<responsetime unit='ms'>2</responsetime>
-<randomgenerators>
-
-</randomgenerators>
-</trial>
-
-<trial id="trial2">
-<procedure >
-<skip/>
-<stimulus>stimulus2</stimulus>
-</procedure>
-<screenresult xclickposition="0" yclickposition="0">
-	<element id="buttongroup1">button4</element>
-</screenresult>
-<corrector>
-<result>false</result>
-<answer>button4</answer>
-<correctanswer>button2</correctanswer>
-</corrector>
-<output>
-<device id="wavdevice">
-  <buffer underruns="0"/>
-</device>
-</output>
-<responsetime unit='ms'>2</responsetime>
-<randomgenerators>
-
-</randomgenerators>
-</trial>
-
-<trial id="trial2">
-<procedure >
-<stimulus>stimulus2</stimulus>
-</procedure>
-<screenresult xclickposition="0" yclickposition="0">
-	<element id="buttongroup1">button4</element>
-</screenresult>
-<corrector>
-<result>false</result>
-<answer>button4</answer>
-<correctanswer>button2</correctanswer>
-</corrector>
-<output>
-<device id="wavdevice">
-  <buffer underruns="0"/>
-</device>
-</output>
-<responsetime unit='ms'>1</responsetime>
-<randomgenerators>
-
-</randomgenerators>
-</trial>
-
-<trial id="trial1">
-<procedure >
-<stimulus>stimulus1</stimulus>
-</procedure>
-<screenresult xclickposition="0" yclickposition="0">
-	<element id="buttongroup1">button4</element>
-</screenresult>
-<corrector>
-<result>false</result>
-<answer>button4</answer>
-<correctanswer>button1</correctanswer>
-</corrector>
-<output>
-<device id="wavdevice">
-  <buffer underruns="0"/>
-</device>
-</output>
-<responsetime unit='ms'>1</responsetime>
-<randomgenerators>
-
-</randomgenerators>
-</trial>
-
-<trial id="trial4">
-<procedure >
-<stimulus>stimulus4</stimulus>
-</procedure>
-<screenresult xclickposition="0" yclickposition="0">
-	<element id="buttongroup1">button2</element>
-</screenresult>
-<corrector>
-<result>false</result>
-<answer>button2</answer>
-<correctanswer>button4</correctanswer>
-</corrector>
-<output>
-<device id="wavdevice">
-  <buffer underruns="0"/>
-</device>
-</output>
-<responsetime unit='ms'>1</responsetime>
-<randomgenerators>
-
-</randomgenerators>
-</trial>
-
-<trial id="trial3">
-<procedure >
-<stimulus>stimulus3</stimulus>
-</procedure>
-<screenresult xclickposition="0" yclickposition="0">
-	<element id="buttongroup1">button3</element>
-</screenresult>
-<corrector>
-<result>true</result>
-<answer>button3</answer>
-<correctanswer>button3</correctanswer>
-</corrector>
-<output>
-<device id="wavdevice">
-  <buffer underruns="0"/>
-</device>
-</output>
-<responsetime unit='ms'>1</responsetime>
-<randomgenerators>
-
-</randomgenerators>
-</trial>
-
-<trial id="trial6">
-<procedure >
-<stimulus>stimulus6</stimulus>
-</procedure>
-<screenresult xclickposition="0" yclickposition="0">
-	<element id="buttongroup1">button6</element>
-</screenresult>
-<corrector>
-<result>true</result>
-<answer>button6</answer>
-<correctanswer>button6</correctanswer>
-</corrector>
-<output>
-<device id="wavdevice">
-  <buffer underruns="0"/>
-</device>
-</output>
-<responsetime unit='ms'>1</responsetime>
-<randomgenerators>
-
-</randomgenerators>
-</trial>
-
-<trial id="trial5">
-<procedure >
-<stimulus>stimulus5</stimulus>
-</procedure>
-<screenresult xclickposition="0" yclickposition="0">
-	<element id="buttongroup1">button6</element>
-</screenresult>
-<corrector>
-<result>false</result>
-<answer>button6</answer>
-<correctanswer>button5</correctanswer>
-</corrector>
-<output>
-<device id="wavdevice">
-  <buffer underruns="0"/>
-</device>
-</output>
-<responsetime unit='ms'>1</responsetime>
-<randomgenerators>
-
-</randomgenerators>
-</trial>
-
-
+<apex:results experiment_file="file:/home/jonas/apex/.build/test/results/procedure/idn2-skip.apx" xmlns:apex="http://med.kuleuven.be/exporl/apex/result">
+  <general>
+    <apex_version>4.1.2</apex_version>
+    <apex_version_git/>
+    <hostname>Apex</hostname>
+    <device_id>{c4f78d69-9780-48e0-ba22-51d15dbfb477}</device_id>
+    <startdate>2026-07-13T12:29:02</startdate>
+    <enddate>2026-07-13T12:29:09</enddate>
+    <duration unit="seconds">7</duration>
+    <jscript>resultsviewer.html</jscript>
+    <stopped_by>procedure</stopped_by>
+  </general>
+  <trial id="trial2">
+    <procedure type="apex:constantProcedure">
+      <answer>button5</answer>
+      <correct_answer>button2</correct_answer>
+      <skip/>
+      <stimulus>stimulus2</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult xclickposition="0" yclickposition="0">
+      <element id="buttongroup1">button5</element>
+    </screenresult>
+    <output>
+      <device id="wavdevice">
+        <buffer underruns="0"/>
+      </device>
+    </output>
+    <responsetime unit="ms">1</responsetime>
+    <randomgenerators/>
+    <trial_start_time>2026-07-13T12:29:02</trial_start_time>
+  </trial>
+  <trial id="trial5">
+    <procedure type="apex:constantProcedure">
+      <answer>button2</answer>
+      <correct_answer>button5</correct_answer>
+      <skip/>
+      <stimulus>stimulus5</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult xclickposition="0" yclickposition="0">
+      <element id="buttongroup1">button2</element>
+    </screenresult>
+    <output>
+      <device id="wavdevice">
+        <buffer underruns="0"/>
+      </device>
+    </output>
+    <responsetime unit="ms">0</responsetime>
+    <randomgenerators/>
+    <trial_start_time>2026-07-13T12:29:03</trial_start_time>
+  </trial>
+  <trial id="trial1">
+    <procedure type="apex:constantProcedure">
+      <answer>button4</answer>
+      <correct_answer>button1</correct_answer>
+      <skip/>
+      <stimulus>stimulus1</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult xclickposition="0" yclickposition="0">
+      <element id="buttongroup1">button4</element>
+    </screenresult>
+    <output>
+      <device id="wavdevice">
+        <buffer underruns="0"/>
+      </device>
+    </output>
+    <responsetime unit="ms">1</responsetime>
+    <randomgenerators/>
+    <trial_start_time>2026-07-13T12:29:04</trial_start_time>
+  </trial>
+  <trial id="trial1">
+    <procedure type="apex:constantProcedure">
+      <answer>button4</answer>
+      <correct_answer>button1</correct_answer>
+      <stimulus>stimulus1</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult xclickposition="0" yclickposition="0">
+      <element id="buttongroup1">button4</element>
+    </screenresult>
+    <output>
+      <device id="wavdevice">
+        <buffer underruns="0"/>
+      </device>
+    </output>
+    <responsetime unit="ms">1</responsetime>
+    <randomgenerators/>
+    <trial_start_time>2026-07-13T12:29:04</trial_start_time>
+  </trial>
+  <trial id="trial6">
+    <procedure type="apex:constantProcedure">
+      <answer>button4</answer>
+      <correct_answer>button6</correct_answer>
+      <stimulus>stimulus6</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult xclickposition="0" yclickposition="0">
+      <element id="buttongroup1">button4</element>
+    </screenresult>
+    <output>
+      <device id="wavdevice">
+        <buffer underruns="0"/>
+      </device>
+    </output>
+    <responsetime unit="ms">1</responsetime>
+    <randomgenerators/>
+    <trial_start_time>2026-07-13T12:29:05</trial_start_time>
+  </trial>
+  <trial id="trial3">
+    <procedure type="apex:constantProcedure">
+      <answer>button2</answer>
+      <correct_answer>button3</correct_answer>
+      <stimulus>stimulus3</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult xclickposition="0" yclickposition="0">
+      <element id="buttongroup1">button2</element>
+    </screenresult>
+    <output>
+      <device id="wavdevice">
+        <buffer underruns="0"/>
+      </device>
+    </output>
+    <responsetime unit="ms">1</responsetime>
+    <randomgenerators/>
+    <trial_start_time>2026-07-13T12:29:06</trial_start_time>
+  </trial>
+  <trial id="trial2">
+    <procedure type="apex:constantProcedure">
+      <answer>button3</answer>
+      <correct_answer>button2</correct_answer>
+      <stimulus>stimulus2</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult xclickposition="0" yclickposition="0">
+      <element id="buttongroup1">button3</element>
+    </screenresult>
+    <output>
+      <device id="wavdevice">
+        <buffer underruns="0"/>
+      </device>
+    </output>
+    <responsetime unit="ms">1</responsetime>
+    <randomgenerators/>
+    <trial_start_time>2026-07-13T12:29:07</trial_start_time>
+  </trial>
+  <trial id="trial4">
+    <procedure type="apex:constantProcedure">
+      <answer>button6</answer>
+      <correct_answer>button4</correct_answer>
+      <stimulus>stimulus4</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult xclickposition="0" yclickposition="0">
+      <element id="buttongroup1">button6</element>
+    </screenresult>
+    <output>
+      <device id="wavdevice">
+        <buffer underruns="0"/>
+      </device>
+    </output>
+    <responsetime unit="ms">1</responsetime>
+    <randomgenerators/>
+    <trial_start_time>2026-07-13T12:29:08</trial_start_time>
+  </trial>
+  <trial id="trial5">
+    <procedure type="apex:constantProcedure">
+      <answer>button6</answer>
+      <correct_answer>button5</correct_answer>
+      <stimulus>stimulus5</stimulus>
+      <correct>false</correct>
+    </procedure>
+    <screenresult xclickposition="0" yclickposition="0">
+      <element id="buttongroup1">button6</element>
+    </screenresult>
+    <output>
+      <device id="wavdevice">
+        <buffer underruns="0"/>
+      </device>
+    </output>
+    <responsetime unit="ms">1</responsetime>
+    <randomgenerators/>
+    <trial_start_time>2026-07-13T12:29:08</trial_start_time>
+  </trial>
 </apex:results>
